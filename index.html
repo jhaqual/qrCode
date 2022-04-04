@@ -1,16 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- displays site properly based on user's device -->
-
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="./css/desktop.css" media="screen and (min-width: 380px)">
 
   <title>Frontend Mentor | QR code component</title>
 
@@ -18,28 +17,43 @@
 </head>
 
 <body>
-  <main class="qrcode-main">
-
+  <main>
     <section class="qrcode-container">
-
-      <div class="qrcode-box">
-        <div class="qrcode-box-image">
-          <img src="./images/image-qr-code.png" alt="qr-code" class="qr-code-image">
-        </div>
-
-        <div class="qrcode-text">
-          <p class="qrcode-text-bold">Improve your front-end skills by building projects</p>
-          <p class="qrcode-text-light">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
-        </div>
-
-      </div>
+      <img src="/images/image-qr-code.png" alt="" class="qrcode-image">
+        <p class="qrcode-text-bold">Improve your front-end <br> skills by building projects</p>
+        <p class="qrcode-text-light">Scan the QR code to visit Frontend <br> Mentor and take your coding skills to <br> the next level</p>
     </section>
     <footer class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a><br>
       Coded by <a href="https://github.com/jhaqual" target="_blank">Harrinson Quintero</a>
     </footer>
   </main>
+
+
 </body>
 
 
 </html>
+
+<!-- 
+<main class="qrcode-main">
+
+  <section class="qrcode-container">
+
+    <div class="qrcode-box">
+      <div class="qrcode-box-image">
+        <img src="./images/image-qr-code.png" alt="qr-code" class="qr-code-image">
+      </div>
+
+      <div class="qrcode-text">
+        <p class="qrcode-text-bold">Improve your front-end skills by building projects</p>
+        <p class="qrcode-text-light">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+      </div>
+
+    </div>
+  </section>
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a><br>
+    Coded by <a href="https://github.com/jhaqual" target="_blank">Harrinson Quintero</a>
+  </footer>
+</main> -->
